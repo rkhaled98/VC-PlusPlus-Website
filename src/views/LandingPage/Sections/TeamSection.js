@@ -37,12 +37,18 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
+                <img
+                  src={
+                    "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/18118884_105583170010283_3402265634081103440_n.jpg?_nc_cat=102&_nc_oc=AQkA-pMhJJLTrHf_pctHmvH1Q_1TDkPBQraM80mcbSNZe0mQBcmLpSvgST5TmVllREc&_nc_ht=scontent-lga3-1.xx&oh=7230e796c58dea1f10013b1b9bda8930&oe=5DEF5351"
+                  }
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Gigi Hadid
+                Parveer Kaur
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Seeking Employment</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
