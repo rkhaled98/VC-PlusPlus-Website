@@ -60,7 +60,11 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   });
-  const brandComponent = <Button className={classes.title}>{brand}</Button>;
+  const brandComponent = (
+    <Button onClick={() => props.history.push("/")} className={classes.title}>
+      {brand}
+    </Button>
+  );
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
@@ -124,6 +128,7 @@ Header.propTypes = {
     "dark"
   ]),
   rightLinks: PropTypes.node,
+  history: PropTypes.object,
   leftLinks: PropTypes.node,
   brand: PropTypes.string,
   fixed: PropTypes.bool,

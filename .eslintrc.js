@@ -12,6 +12,15 @@ module.exports = {
       jsx: true
     }
   },
+  rules: {
+    "no-unused-vars": [
+      "error",
+      {
+        vars: "all",
+        args: "none"
+      }
+    ]
+  },
   plugins: ["react"],
   extends: [
     "eslint:recommended",
