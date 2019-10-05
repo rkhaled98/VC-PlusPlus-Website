@@ -6,7 +6,7 @@ Make sure you have git and npm installed.
 
 ### Clone this repo
 
-git clone https://github.com/rkhaled98/VC-PlusPlus-Website.git
+`git clone https://github.com/rkhaled98/VC-PlusPlus-Website.git`
 
 make sure you have gotten access from me to this repo with your GitHub account
 
